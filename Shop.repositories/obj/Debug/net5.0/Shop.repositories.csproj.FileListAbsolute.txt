@@ -1,0 +1,15 @@
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\bin\Debug\net5.0\Shop.repositories.deps.json
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\bin\Debug\net5.0\Shop.repositories.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\bin\Debug\net5.0\ref\Shop.repositories.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\bin\Debug\net5.0\Shop.repositories.pdb
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\bin\Debug\net5.0\Shop.entities.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\bin\Debug\net5.0\Shop.entities.pdb
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.csproj.AssemblyReference.cache
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.AssemblyInfoInputs.cache
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.AssemblyInfo.cs
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.csproj.CoreCompileInputs.cache
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.csproj.CopyComplete
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\ref\Shop.repositories.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.repositories\obj\Debug\net5.0\Shop.repositories.pdb

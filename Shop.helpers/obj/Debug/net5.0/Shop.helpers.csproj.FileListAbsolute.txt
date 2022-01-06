@@ -1,0 +1,15 @@
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\bin\Debug\net5.0\Shop.helpers.deps.json
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\bin\Debug\net5.0\Shop.helpers.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\bin\Debug\net5.0\ref\Shop.helpers.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\bin\Debug\net5.0\Shop.helpers.pdb
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\bin\Debug\net5.0\Shop.entities.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\bin\Debug\net5.0\Shop.entities.pdb
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.csproj.AssemblyReference.cache
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.GeneratedMSBuildEditorConfig.editorconfig
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.AssemblyInfoInputs.cache
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.AssemblyInfo.cs
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.csproj.CoreCompileInputs.cache
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.csproj.CopyComplete
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\ref\Shop.helpers.dll
+D:\ProjectTryHard\CosmeticsShop\CosmeticsShop_Be\Shop.helpers\obj\Debug\net5.0\Shop.helpers.pdb

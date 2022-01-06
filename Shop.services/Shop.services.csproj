@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Shop.entities\Shop.entities.csproj" />
+    <ProjectReference Include="..\Shop.repositories\Shop.repositories.csproj" />
+  </ItemGroup>
+
+</Project>

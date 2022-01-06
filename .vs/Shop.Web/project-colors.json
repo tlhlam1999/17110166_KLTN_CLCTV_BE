@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "422e6fe7-7f4c-4660-9be8-d8f4a22ee55d": {
+      "ProjectGuid": "422e6fe7-7f4c-4660-9be8-d8f4a22ee55d",
+      "DisplayName": "Shop.helpers",
+      "ColorIndex": 0
+    },
+    "09aeacfd-896d-441b-95fb-ee847445c80e": {
+      "ProjectGuid": "09aeacfd-896d-441b-95fb-ee847445c80e",
+      "DisplayName": "Shop.repositories",
+      "ColorIndex": 1
+    },
+    "7c8ae7fc-17a0-4283-99f3-34f8b5b960ca": {
+      "ProjectGuid": "7c8ae7fc-17a0-4283-99f3-34f8b5b960ca",
+      "DisplayName": "Shop.services",
+      "ColorIndex": 2
+    },
+    "7bd08c49-b207-4af4-9049-c659d15ec7e7": {
+      "ProjectGuid": "7bd08c49-b207-4af4-9049-c659d15ec7e7",
+      "DisplayName": "Shop.api",
+      "ColorIndex": 3
+    },
+    "a68b2bdb-ff7e-47aa-8342-60b00fc1c067": {
+      "ProjectGuid": "a68b2bdb-ff7e-47aa-8342-60b00fc1c067",
+      "DisplayName": "Shop.entities",
+      "ColorIndex": 4
+    },
+    "82818f02-83de-447f-8f44-33ea763bb2ef": {
+      "ProjectGuid": "82818f02-83de-447f-8f44-33ea763bb2ef",
+      "DisplayName": "Shop.constants",
+      "ColorIndex": 5
+    }
+  },
+  "NextColorIndex": 6
+}
