@@ -14,6 +14,10 @@ namespace Shop.repositories.RepositoryImpl
 
         public List<Brand> GetByCategoryId(int categoryId)
         {
+            if (categoryId == 9999)
+            {
+                return _dbContext.Brands.ToList();
+            }
             var brands = _dbContext.Brands.Where(x => x.CategoryId == categoryId).ToList();
             return brands;
         }

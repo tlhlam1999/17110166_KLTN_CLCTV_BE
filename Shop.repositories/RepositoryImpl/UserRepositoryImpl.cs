@@ -18,7 +18,7 @@ namespace Shop.repositories.RepositoryImpl
         {
             double totalRevenue = 0;
             var orderDetails = _dbContext.OrderDetails.ToList();
-            var listOrderDetail = orderDetails.Where(x => x.ProductId == _product.Id).ToList();
+            var listOrderDetail = orderDetails.Where(x => x.ProductId == _product.Id && x.Status < 6).ToList();
             foreach (var orderDetail in listOrderDetail)
             {
                 totalRevenue += orderDetail.Balance;
@@ -31,10 +31,10 @@ namespace Shop.repositories.RepositoryImpl
         {
             int soldQuantity = 0;
             var orderDetails = _dbContext.OrderDetails.ToList();
-            var listOrderDetail = orderDetails.Where(x => x.ProductId == _product.Id).ToList();
+            var listOrderDetail = orderDetails.Where(x => x.ProductId == _product.Id && x.Status < 6).ToList();
             foreach (var orderDetail in listOrderDetail)
             {
-                soldQuantity += _product.TotalItems - orderDetail.Quantity;
+                soldQuantity += orderDetail.Quantity;
             }
 
             return soldQuantity;
@@ -74,9 +74,10 @@ namespace Shop.repositories.RepositoryImpl
             var statisticals = new List<Statistical>();
             foreach (Product product in products)
             {
-                var orderDetail = _dbContext.OrderDetails.Where(x => x.ProductId == product.Id).FirstOrDefault();
-                if (orderDetail != null)
+                var orderDetails = _dbContext.OrderDetails.Where(x => x.ProductId == product.Id && x.Status == 5).ToList();
+                foreach (var orderDetail in orderDetails)
                 {
+
                     DateTime dateFrom = DateTime.ParseExact(ConvertDatetime(from), "dd/MM/yyyy", CultureInfo.InvariantCulture);
                     DateTime dateTo = DateTime.ParseExact(ConvertDatetime(to), "dd/MM/yyyy", CultureInfo.InvariantCulture);
                     DateTime dateTrade = DateTime.ParseExact(ConvertDateTrade(orderDetail.DateTrade), "dd/MM/yyyy", CultureInfo.InvariantCulture);
@@ -88,10 +89,11 @@ namespace Shop.repositories.RepositoryImpl
                         var statistical = new Statistical();
                         statistical.Product = product.NameProduct;
                         statistical.Brand = GetBrandName(product.BrandId);
-                        statistical.Price = product.Price; 
+                        statistical.Price = product.Price;
                         statistical.SoldQuantity = CalculatorSold(product);
-                        statistical.Inventory = product.TotalItems - CalculatorSold(product);
+                        statistical.Inventory = product.TotalItems - statistical.SoldQuantity;
                         statistical.TotalRevenue = CalculatorRevenue(product);
+                        statistical.StatusOrder = orderDetail.Status;
                         statisticals.Add(statistical);
                     }
                 }
@@ -128,6 +130,6 @@ namespace Shop.repositories.RepositoryImpl
             }
             _dbContext.SaveChanges();
             return userResult;
-        } 
+        }
     }
 }

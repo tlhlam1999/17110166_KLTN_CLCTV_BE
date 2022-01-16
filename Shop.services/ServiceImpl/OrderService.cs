@@ -1,6 +1,7 @@
 ﻿
 using Shop.entities;
 using Shop.repositories;
+using System;
 using System.Collections.Generic;
 
 namespace Shop.services.ServiceImpl
@@ -18,28 +19,60 @@ namespace Shop.services.ServiceImpl
             _repository = repository;
         }
 
-        public double? GetPrice(int productId)
-        {
-            var product = _productRepository.Get(productId);
-            return product.Price;
-        }
         public Order CreateOrder(Order order)
         {
-         
-            Order orderAdded = _repository.Add(order);
-            foreach (var item in order.OrderDetails)
+
+            try
             {
-                item.Balance = item.Quantity * (double)GetPrice(item.ProductId);
-                item.Status = 2;
-                item.OrderId = orderAdded.Id;
-                _detailRepository.CreateOrderDetail(item);
+                Order orderAdded = _repository.Add(order);
+                foreach (var item in order.OrderDetails)
+                {
+                    item.DateTrade = DateTime.Now.ToString();
+                    item.OrderId = orderAdded.Id;
+                    _detailRepository.CreateOrderDetail(item);
+                }
+                return orderAdded;
             }
-            return orderAdded;
+            catch (Exception ex)
+            {
+
+                throw;
+            }
+          
         }
 
         public List<Order> SearchOrderByCode(string code)
         {
             return _repository.SearchOrderByCode(code);
+        }
+
+        public Order CancelOrder(int id)
+        {
+            Order order = _repository.Get(id);
+            order.Status = 6;
+            Order orderUpdated = _repository.Update(order);
+            List<OrderDetail> orderDetails = _detailRepository.GetByOrderId(order.Id);
+            foreach (var detail in orderDetails)
+            {
+                detail.Status = 6;
+                _detailRepository.Update(detail);
+            }
+            return orderUpdated;
+        }
+
+        public Order UpdateOrder(Order o)
+        {
+            Order order = _repository.Update(o);
+            if (order != null)
+            {
+                var orderDetails = _detailRepository.GetByOrderId(order.Id);
+                foreach(var detail in orderDetails)
+                {
+                    detail.Status = o.Status; 
+                    _detailRepository.Update(detail); 
+                }
+            }
+            return order;
         }
     }
 }

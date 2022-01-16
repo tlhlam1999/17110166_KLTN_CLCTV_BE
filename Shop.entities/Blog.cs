@@ -15,7 +15,7 @@ namespace Shop.entities
         public bool Status { get; set; }
         public string CreatedDate { get; set; }
         public int UserId { get; set; }
-        public string Image { get; set; }
+        public string Image { get; set; } 
         public List<Comment> Comments { get; set; }
         [NotMapped]
         public string Author { get; set; }

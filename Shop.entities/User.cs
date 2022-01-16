@@ -1,4 +1,5 @@
 
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
@@ -18,6 +19,10 @@ namespace Shop.entities
         public string Address { get; set; }
         public int Gender { get; set; }
         public string ClientIp { get; set; }
+        public List<Blog> Blogs { get; set; }
+        public Order Order { get; set; } 
+        [NotMapped]
+        public List<Comment> Comments { get; set; }
         [NotMapped]
         public string Token { get; set; }
 

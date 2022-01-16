@@ -19,6 +19,7 @@ namespace Shop.entities
         public virtual DbSet<Product> Products { get; set; }
         public virtual DbSet<Brand> Brands { get; set; }
         public virtual DbSet<Composition> Compositions { get; set; }
+        public virtual DbSet<Cart> Carts { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {

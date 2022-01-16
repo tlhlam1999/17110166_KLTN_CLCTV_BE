@@ -14,6 +14,10 @@ namespace Shop.repositories.RepositoryImpl
 
         public List<Product> GetByBrandId(int brandId)
         {
+            if (brandId == 9999)
+            {
+                return _dbContext.Products.ToList();
+            }
             return _dbContext.Products.Where(x => !x.IsDisabled && x.BrandId == brandId).ToList();
         }
 
@@ -28,6 +32,10 @@ namespace Shop.repositories.RepositoryImpl
         }
         public List<Product> GetProduct(int brandId, string dataSearch)
         {
+            if (brandId == 9999)
+            {
+                return _dbContext.Products.Where(_x => !_x.IsDisabled).ToList();
+            }
             List<Product> products = new List<Product>();
             List<Product> productList = _dbContext.Products.Where(_x => _x.BrandId == brandId && !_x.IsDisabled).ToList();
 
@@ -43,7 +51,6 @@ namespace Shop.repositories.RepositoryImpl
                 }
                 return products;
             }
-
             else
             {
                 return productList;

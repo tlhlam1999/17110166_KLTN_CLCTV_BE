@@ -12,8 +12,7 @@ namespace Shop.entities
         public int BrandId { get; set; }
         public int CategoryId { get; set; }
         public string Name { get; set; }
-        public string Description { get; set; }
-        [NotMapped]
+        public string Description { get; set; } 
         public List<Product> Products { get; set; }
         [NotMapped]
         public string CategoryName { get; set; }

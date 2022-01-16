@@ -1,15 +1,230 @@
 ﻿++Solution 'Shop.Web' ‎(6 of 6 projects)
 i:{00000000-0000-0000-0000-000000000000}:Shop.Web.sln
-++Shop.services
-i:{00000000-0000-0000-0000-000000000000}:Shop.services
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.services.dll
+++Shop.api
+i:{00000000-0000-0000-0000-000000000000}:Shop.api
+++Connected Services 
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1600
 ++Dependencies
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:>568
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1526
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:>569
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:>797
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:>796
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:>567
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1599
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:>750
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:>815
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:>868
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:>748
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:>749
+++Properties
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\properties\
+++assets
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\
+++Controllers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\
+++BlogController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\blogcontroller.cs
+++BrandController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\brandcontroller.cs
+++CategoryController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\categorycontroller.cs
+++CommentController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\commentcontroller.cs
+++CommonController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\commoncontroller.cs
+++CompositionController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\compositioncontroller.cs
+++GeneralController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\generalcontroller.cs
+++HomeController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\homecontroller.cs
+++OrderController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\ordercontroller.cs
+++OrderDetailController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\orderdetailcontroller.cs
+++ProductController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\productcontroller.cs
+++UserController.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\usercontroller.cs
+++Migrations
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\
+++appsettings.json
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\appsettings.json
+++Program.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\program.cs
+++Startup.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\startup.cs
+++No service dependencies discovered
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1601
+++Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:analyzers
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:analyzers
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:analyzers
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:analyzers
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:analyzers
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:analyzers
+++Frameworks
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:frameworks
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:frameworks
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:frameworks
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:frameworks
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:frameworks
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:frameworks
+++Packages
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:packages
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:packages
+++Projects
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:projects
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:projects
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:projects
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:projects
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:projects
+++launchSettings.json
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\properties\launchsettings.json
+++images
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\
+++20220107093838_FirstMigration.cs
+++DataContextModelSnapshot.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\datacontextmodelsnapshot.cs
+++appsettings.Development.json
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\appsettings.development.json
+++MessagePackAnalyzer
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
+++Microsoft.AspNetCore.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.CodeAnalysis.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++System.Text.Json.SourceGeneration
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.AspNetCore.App
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\microsoft.aspnetcore.app
+++Microsoft.NETCore.App
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\microsoft.netcore.app
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\microsoft.netcore.app
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\microsoft.netcore.app
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\microsoft.netcore.app
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\microsoft.netcore.app
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\microsoft.netcore.app
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.0)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1672
+++Microsoft.EntityFrameworkCore (6.0.0)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1668
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:>1608
+++Microsoft.EntityFrameworkCore.Design (6.0.0)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1670
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.0)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1669
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1673
+++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1674
+++Swashbuckle.AspNetCore (6.2.3)
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1671
+++Shop.constants
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\bin\debug\net6.0\shop.constants.dll
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\shop.constants.csproj
+i:{00000000-0000-0000-0000-000000000000}:Shop.constants
+++Shop.helpers
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\bin\debug\net6.0\shop.helpers.dll
+i:{00000000-0000-0000-0000-000000000000}:Shop.helpers
+++Shop.services
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.services.dll
+i:{00000000-0000-0000-0000-000000000000}:Shop.services
+++download.jpg
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\download.jpg
+++images (1).jpg
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\images (1).jpg
+++images (2).jpg
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\images (2).jpg
+++unnamed.jpg
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\unnamed.jpg
+++20220107093838_FirstMigration.Designer.cs
+++Shop.entities
+i:{00000000-0000-0000-0000-000000000000}:Shop.entities
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\bin\debug\net6.0\shop.entities.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\bin\debug\net6.0\shop.entities.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\bin\debug\net6.0\shop.entities.dll
+++Authenticate.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\authenticate.cs
+++Blog.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\blog.cs
+++Brand.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\brand.cs
+++Category.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\category.cs
+++Comment.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\comment.cs
+++Composition.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\composition.cs
+++DataContext.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\datacontext.cs
+++Order.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\order.cs
+++OrderDetail.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\orderdetail.cs
+++Product.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\product.cs
+++Statistical.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\statistical.cs
+++User.cs
+i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\user.cs
+++AppSettings.cs
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\appsettings.cs
+++ExtensionMethods.cs
+i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\extensionmethods.cs
+++Configs.cs
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\configs.cs
+++Response.cs
+i:{82818f02-83de-447f-8f44-33ea763bb2ef}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\response.cs
+++Imports
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:>215
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:>214
+++bin
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\
+++obj
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\
 ++ServiceImpl
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\serviceimpl\
 ++BlogService.cs
@@ -52,483 +267,230 @@ i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\c
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\iproductservice.cs
 ++IUserService.cs
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\iuserservice.cs
-++Analyzers
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:analyzers
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:analyzers
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:analyzers
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:analyzers
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:analyzers
-++Frameworks
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:frameworks
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:frameworks
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:frameworks
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:frameworks
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:frameworks
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:frameworks
-++Projects
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:projects
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:projects
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:projects
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:projects
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:projects
-++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-++Microsoft.CodeAnalysis.NetAnalyzers
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-++Microsoft.EntityFrameworkCore.Analyzers
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\users\sonmc\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
-++Microsoft.Extensions.Logging.Generators
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\users\sonmc\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
-++System.Text.Json.SourceGeneration
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-++Microsoft.NETCore.App
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\microsoft.netcore.app
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\microsoft.netcore.app
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\microsoft.netcore.app
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\microsoft.netcore.app
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\microsoft.netcore.app
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\microsoft.netcore.app
-++Shop.entities
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\bin\debug\net6.0\shop.entities.dll
-i:{00000000-0000-0000-0000-000000000000}:Shop.entities
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\bin\debug\net6.0\shop.entities.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\bin\debug\net6.0\shop.entities.dll
+++Sdk.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
+++Sdk.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
+++Debug
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\
+++project.assets.json
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\project.assets.json
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\project.assets.json
+++project.nuget.cache
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\project.nuget.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\project.nuget.cache
+++Shop.services.csproj.nuget.dgspec.json
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.dgspec.json
+++Shop.services.csproj.nuget.g.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.props
+++Shop.services.csproj.nuget.g.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.targets
 ++Shop.repositories
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.repositories.dll
 i:{00000000-0000-0000-0000-000000000000}:Shop.repositories
-++Shop.api
-i:{00000000-0000-0000-0000-000000000000}:Shop.api
-++Connected Services 
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1527
-++Properties
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\properties\
-++assets
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\
-++Controllers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\
-++BlogController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\blogcontroller.cs
-++BrandController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\brandcontroller.cs
-++CategoryController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\categorycontroller.cs
-++CommentController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\commentcontroller.cs
-++CommonController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\commoncontroller.cs
-++CompositionController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\compositioncontroller.cs
-++GeneralController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\generalcontroller.cs
-++HomeController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\homecontroller.cs
-++OrderController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\ordercontroller.cs
-++OrderDetailController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\orderdetailcontroller.cs
-++ProductController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\productcontroller.cs
-++UserController.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\controllers\usercontroller.cs
-++Migrations
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\
-++appsettings.json
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\appsettings.json
-++Program.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\program.cs
-++Startup.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\startup.cs
-++No service dependencies discovered
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1528
-++Packages
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:packages
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:packages
-++launchSettings.json
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\properties\launchsettings.json
-++images
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\
-++20220101235804_FirstMigration.cs
-++DataContextModelSnapshot.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\datacontextmodelsnapshot.cs
-++appsettings.Development.json
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\appsettings.development.json
-++MessagePackAnalyzer
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\messagepackanalyzer\2.1.152\analyzers\dotnet\messagepackanalyzer.dll
-++Microsoft.AspNetCore.Analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
-++Microsoft.AspNetCore.App.Analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
-++Microsoft.AspNetCore.App.CodeFixes
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
-++Microsoft.AspNetCore.Components.Analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
-++Microsoft.AspNetCore.Mvc.Analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
-++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
-++Microsoft.CodeAnalysis.Analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.analyzers.dll
-++Microsoft.CodeAnalysis.CSharp.Analyzers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\users\sonmc\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.2\analyzers\dotnet\cs\microsoft.codeanalysis.csharp.analyzers.dll
-++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
-++Microsoft.AspNetCore.App
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\microsoft.aspnetcore.app
-++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.0)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1599
-++Microsoft.EntityFrameworkCore (6.0.0)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1595
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:>1535
-++Microsoft.EntityFrameworkCore.Design (6.0.0)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1597
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.0)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1596
-++Microsoft.EntityFrameworkCore.Tools (6.0.0)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1600
-++Microsoft.VisualStudio.Web.CodeGeneration.Design (6.0.0)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1601
-++Swashbuckle.AspNetCore (6.2.3)
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:>1598
-++Shop.constants
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\bin\debug\net6.0\shop.constants.dll
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\shop.constants.csproj
-i:{00000000-0000-0000-0000-000000000000}:Shop.constants
-++Shop.helpers
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\bin\debug\net6.0\shop.helpers.dll
-i:{00000000-0000-0000-0000-000000000000}:Shop.helpers
-++bat-mi-kinh-nghiem-mo-shop-my-pham-online-cho-nguoi-moi-bat-dau-1-1632905477.jpg
-++son-kem-ysl-216_59353cae0537499b8091eeb63e2b0942.png
-++unnamed.jpg
-++20220101235804_FirstMigration.Designer.cs
-++Authenticate.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\authenticate.cs
-++Blog.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\blog.cs
-++Brand.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\brand.cs
-++Category.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\category.cs
-++Comment.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\comment.cs
-++Composition.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\composition.cs
-++DataContext.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\datacontext.cs
-++Order.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\order.cs
-++OrderDetail.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\orderdetail.cs
-++Product.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\product.cs
-++Statistical.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\statistical.cs
-++User.cs
-i:{a68b2bdb-ff7e-47aa-8342-60b00fc1c067}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.entities\user.cs
-++AppSettings.cs
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\appsettings.cs
-++ExtensionMethods.cs
-i:{422e6fe7-7f4c-4660-9be8-d8f4a22ee55d}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.helpers\extensionmethods.cs
-++Configs.cs
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\configs.cs
-++Response.cs
-i:{82818f02-83de-447f-8f44-33ea763bb2ef}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.constants\response.cs
-++Imports
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:>233
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:>1621
-++bin
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\
-++obj
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\
-++RepositoryImpl
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\
-++BlogRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\blogrepositoryimpl.cs
-++BrandRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\brandrepository.cs
-++CategoryRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\categoryrepositoryimpl.cs
-++CommentRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\commentrepository.cs
-++CompositionRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\compositionrepositoryimpl.cs
-++GeneralRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\generalrepositoryimpl.cs
-++OrderDetailRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\orderdetailrepositoryimpl.cs
-++OrderRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\orderrepositoryimpl.cs
-++ProductRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\productrepositoryimpl.cs
-++UserRepositoryImpl.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\userrepositoryimpl.cs
-++IBlogRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iblogrepository.cs
-++IBrandRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\ibrandrepository.cs
-++ICategoryRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\icategoryrepository.cs
-++ICommentRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\icommentrepository.cs
-++ICompositionRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\icompositionrepository.cs
-++IGeneralRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\igeneralrepository.cs
-++IOrderDetailRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iorderdetailrepository.cs
-++IOrderRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iorderrepository.cs
-++IProductRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iproductrepository.cs
-++IUserRepository.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iuserrepository.cs
-++Sdk.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\sdk\sdk.props
-++Sdk.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\sdk\sdk.targets
-++Debug
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\
-++project.assets.json
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\project.assets.json
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\project.assets.json
-++project.nuget.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\project.nuget.cache
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\project.nuget.cache
-++Shop.repositories.csproj.nuget.dgspec.json
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.dgspec.json
-++Shop.repositories.csproj.nuget.g.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.props
-++Shop.repositories.csproj.nuget.g.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.targets
 ++Microsoft.Common.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.props
 ++Microsoft.NET.Sdk.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.props
 ++Microsoft.NET.Sdk.BeforeCommon.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.beforecommon.targets
 ++Microsoft.CSharp.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.targets
 ++Microsoft.NET.Sdk.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.targets
 ++Microsoft.NET.Compatibility.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.targets
 ++NuGet.Build.Tasks.Pack.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\nuget.build.tasks.pack\build\nuget.build.tasks.pack.targets
 ++net5.0
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\
 ++net6.0
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\
 ++Microsoft.NuGet.ImportBefore.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\imports\microsoft.common.props\importbefore\microsoft.nuget.importbefore.props
 ++NuGet.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.props
 ++Microsoft.NET.Sdk.DefaultItems.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.props
 ++Microsoft.NET.Sdk.ImportWorkloads.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.props
 ++Microsoft.NET.SupportedTargetFrameworks.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedtargetframeworks.props
 ++Microsoft.NET.SupportedPlatforms.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.supportedplatforms.props
 ++Microsoft.NET.WindowsSdkSupportedTargetPlatforms.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windowssdksupportedtargetplatforms.props
 ++Microsoft.NET.Sdk.CSharp.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.props
 ++Microsoft.NET.ILLink.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.props
 ++Microsoft.NET.Compatibility.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.props
 ++Microsoft.NET.PackTool.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.props
 ++Microsoft.NET.PackProjectTool.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.props
 ++Microsoft.NET.Sdk.WindowsDesktop.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.props
 ++Microsoft.NET.Windows.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.windows.props
 ++Microsoft.NET.DefaultAssemblyInfo.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultassemblyinfo.targets
 ++Microsoft.NET.DefaultOutputPaths.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultoutputpaths.targets
 ++Microsoft.NET.Sdk.ImportPublishProfile.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importpublishprofile.targets
 ++Microsoft.NET.TargetFrameworkInference.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.targetframeworkinference.targets
 ++Microsoft.NET.Sdk.ImportWorkloads.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.importworkloads.targets
 ++Microsoft.NET.RuntimeIdentifierInference.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.runtimeidentifierinference.targets
 ++Microsoft.NET.EolTargetFrameworks.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.eoltargetframeworks.targets
 ++Microsoft.NET.NuGetOfflineCache.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.nugetofflinecache.targets
 ++Microsoft.Managed.Before.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.before.targets
 ++Microsoft.CSharp.CurrentVersion.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.csharp.currentversion.targets
 ++Microsoft.Managed.After.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.managed.after.targets
 ++Microsoft.NET.Sdk.Common.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.common.targets
 ++Microsoft.PackageDependencyResolution.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.packagedependencyresolution.targets
 ++Microsoft.NET.Sdk.DefaultItems.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.targets
 ++Microsoft.NET.Sdk.FrameworkReferenceResolution.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.frameworkreferenceresolution.targets
 ++Microsoft.NET.Sdk.Shared.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.shared.targets
 ++Microsoft.NET.DisableStandardFrameworkResolution.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.disablestandardframeworkresolution.targets
 ++Microsoft.NET.DesignerSupport.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.designersupport.targets
 ++Microsoft.NET.GenerateAssemblyInfo.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateassemblyinfo.targets
 ++Microsoft.NET.GenerateGlobalUsings.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generateglobalusings.targets
 ++Microsoft.NET.GenerateSupportedRuntime.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.generatesupportedruntime.targets
 ++Microsoft.NET.ComposeStore.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.composestore.targets
 ++Microsoft.NET.CrossGen.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.crossgen.targets
 ++Microsoft.NET.ObsoleteReferences.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.obsoletereferences.targets
 ++Microsoft.NET.Publish.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.publish.targets
 ++Microsoft.NET.PackTool.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packtool.targets
 ++Microsoft.NET.PackProjectTool.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.packprojecttool.targets
 ++Microsoft.NET.PreserveCompilationContext.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.preservecompilationcontext.targets
 ++Microsoft.NET.ConflictResolution.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.conflictresolution.targets
 ++Microsoft.NET.Sdk.CSharp.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.csharp.targets
 ++Microsoft.NET.ILLink.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.illink.targets
 ++Microsoft.NET.Sdk.Analyzers.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.analyzers.targets
 ++Microsoft.NET.Compatibility.Common.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.compatibility.common.targets
 ++ref
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\ref\
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\ref\
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\ref\
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\ref\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\ref\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\ref\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\ref\
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\ref\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\ref\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\ref\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\ref\
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\ref\
 ++Shop.entities.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.entities.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.entities.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.entities.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.entities.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.entities.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.entities.dll
 ++Shop.entities.pdb
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.entities.pdb
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.entities.pdb
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.entities.pdb
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.entities.pdb
-++Shop.repositories.deps.json
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.repositories.deps.json
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.repositories.deps.json
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.entities.pdb
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.entities.pdb
 ++Shop.repositories.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.repositories.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.repositories.dll
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.repositories.dll
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.repositories.dll
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.dll
@@ -537,212 +499,23 @@ i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\c
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\ref\shop.repositories.dll
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\ref\shop.repositories.dll
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\ref\shop.repositories.dll
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.repositories.dll
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.repositories.dll
 ++Shop.repositories.pdb
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.repositories.pdb
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.repositories.pdb
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.repositories.pdb
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.repositories.pdb
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.pdb
 i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.pdb
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.repositories.pdb
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.repositories.pdb
-++Shop.constants.dll
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.constants.dll
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.constants.dll
-++Shop.constants.pdb
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.constants.pdb
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.constants.pdb
-++.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
-++Shop.repositories.AssemblyInfo.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.assemblyinfo.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.assemblyinfo.cs
-++Shop.repositories.AssemblyInfoInputs.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.assemblyinfoinputs.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.assemblyinfoinputs.cache
-++Shop.repositories.assets.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.assets.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.assets.cache
-++Shop.repositories.csproj.AssemblyReference.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.assemblyreference.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.assemblyreference.cache
-++Shop.repositories.csproj.CopyComplete
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.copycomplete
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.copycomplete
-++Shop.repositories.csproj.CoreCompileInputs.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.corecompileinputs.cache
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.corecompileinputs.cache
-++Shop.repositories.csproj.FileListAbsolute.txt
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.filelistabsolute.txt
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.filelistabsolute.txt
-++Shop.repositories.GeneratedMSBuildEditorConfig.editorconfig
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.generatedmsbuildeditorconfig.editorconfig
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.generatedmsbuildeditorconfig.editorconfig
-++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
-++Microsoft.NuGet.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
-++Microsoft.NETCoreSdk.BundledVersions.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
-++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
-++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
-++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
-++Microsoft.CSharp.Core.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
-++Microsoft.CSharp.DesignTime.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
-++Microsoft.Common.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
-++Microsoft.ServiceModel.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
-++Microsoft.NET.Sdk.DefaultItems.Shared.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
-++Microsoft.NETCoreSdk.BundledCliTools.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
-++Microsoft.NET.DefaultPackageConflictOverrides.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
-++Microsoft.CodeAnalysis.NetAnalyzers.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
-++Microsoft.CodeAnalysis.NetAnalyzers.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
-++Microsoft.NET.ILLink.Tasks.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
-++System.Windows.Forms.Analyzers.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
-++Microsoft.Managed.Core.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
-++Microsoft.Managed.DesignTime.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
-++Microsoft.Common.CurrentVersion.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
-++Microsoft.Managed.Core.CurrentVersions.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
-++Microsoft.Cpp.VCLibs120Universal.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
-++Microsoft.Net.CoreRuntime.ImportBefore.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
-++Microsoft.NetNative.ImportBefore.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
-++Microsoft.NET.props
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
-++Microsoft.CodeAnalysis.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
-++Microsoft.Xaml.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
-++Microsoft.WorkflowBuildExtensions.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
-++Microsoft.TeamTest.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
-++NuGet.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
-++Microsoft.DesktopBridge.ImportAfter.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
-++Microsoft.Docker.ImportAfter.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
-++Microsoft.NET.Build.Extensions.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
-++Microsoft.Net.CoreRuntime.ImportAfter.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
-++Microsoft.NetNative.ImportAfter.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
-++Microsoft.NuGet.ImportAfter.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
-++Microsoft.Web.ImportAfter.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
-++Microsoft.DesktopBridge.Common.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
-++Microsoft.Docker.targets
-i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
-++images (1).jpg
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\images (1).jpg
-++Shop.services.csproj.nuget.g.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.props
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.props
-++Shop.services.csproj.nuget.g.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.targets
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.g.targets
 ++Shop.services.deps.json
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.services.deps.json
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.services.deps.json
 ++Shop.services.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\shop.services.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.services.dll
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\ref\shop.services.dll
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\ref\shop.services.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\shop.services.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\shop.services.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net5.0\ref\shop.services.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\ref\shop.services.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\ref\shop.services.dll
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\ref\shop.services.dll
 ++Shop.services.pdb
@@ -750,8 +523,15 @@ i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\c
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.services.pdb
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\shop.services.pdb
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\shop.services.pdb
-++Shop.services.csproj.nuget.dgspec.json
-i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\shop.services.csproj.nuget.dgspec.json
+++Shop.constants.dll
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.constants.dll
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.constants.dll
+++Shop.constants.pdb
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\bin\debug\net6.0\shop.constants.pdb
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.constants.pdb
+++.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\.netcoreapp,version=v5.0.assemblyattributes.cs
 ++Shop.services.AssemblyInfo.cs
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\shop.services.assemblyinfo.cs
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\shop.services.assemblyinfo.cs
@@ -776,11 +556,230 @@ i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\c
 ++Shop.services.GeneratedMSBuildEditorConfig.editorconfig
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net5.0\shop.services.generatedmsbuildeditorconfig.editorconfig
 i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\shop.services.generatedmsbuildeditorconfig.editorconfig
-++20220102015205_FirstMigration.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\20220102015205_firstmigration.cs
-++20220102015205_FirstMigration.Designer.cs
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\20220102015205_firstmigration.designer.cs
-++download.jpg
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\download.jpg
-++images.jpg
-i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\assets\images\images.jpg
+++.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.services\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\.netcoreapp,version=v6.0.assemblyattributes.cs
+++Microsoft.NuGet.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\nuget\17.0\microsoft.nuget.props
+++Microsoft.NETCoreSdk.BundledVersions.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledversions.props
+++Microsoft.NET.Sdk.WindowsDesktop.WindowsForms.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.windowsforms.props
+++Microsoft.NET.Sdk.WindowsDesktop.WPF.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\microsoft.net.sdk.windowsdesktop.wpf.props
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.android\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.ios\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maccatalyst\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.macos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.maui\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.sdk.tvos\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.emscripten\workloadmanifest.targets
+++WorkloadManifest.targets (C:\Program Files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain)
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk-manifests\6.0.100\microsoft.net.workload.mono.toolchain\workloadmanifest.targets
+++Microsoft.CSharp.Core.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.csharp.core.targets
+++Microsoft.CSharp.DesignTime.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.csharp.designtime.targets
+++Microsoft.Common.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.targets
+++Microsoft.ServiceModel.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.servicemodel.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.servicemodel.targets
+++Microsoft.NET.Sdk.DefaultItems.Shared.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.sdk.defaultitems.shared.targets
+++Microsoft.NETCoreSdk.BundledCliTools.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\microsoft.netcoresdk.bundledclitools.props
+++Microsoft.NET.DefaultPackageConflictOverrides.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\targets\microsoft.net.defaultpackageconflictoverrides.targets
+++Microsoft.CodeAnalysis.NetAnalyzers.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.props
+++Microsoft.CodeAnalysis.NetAnalyzers.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\build\microsoft.codeanalysis.netanalyzers.targets
+++Microsoft.NET.ILLink.Tasks.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.illink.tasks\build\microsoft.net.illink.tasks.props
+++System.Windows.Forms.Analyzers.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.windowsdesktop\targets\system.windows.forms.analyzers.props
+++Microsoft.Managed.Core.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.targets
+++Microsoft.Managed.DesignTime.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\managed\microsoft.managed.designtime.targets
+++Microsoft.Common.CurrentVersion.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.common.currentversion.targets
+++Microsoft.Managed.Core.CurrentVersions.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\roslyn\microsoft.managed.core.currentversions.targets
+++Microsoft.Cpp.VCLibs120Universal.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.cpp.vclibs120universal.targets
+++Microsoft.Net.CoreRuntime.ImportBefore.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.net.coreruntime.importbefore.targets
+++Microsoft.NetNative.ImportBefore.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importbefore\microsoft.netnative.importbefore.targets
+++Microsoft.NET.props
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.net.props
+++Microsoft.CodeAnalysis.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\codeanalysis\microsoft.codeanalysis.targets
+++Microsoft.Xaml.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.xaml.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.xaml.targets
+++Microsoft.WorkflowBuildExtensions.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\bin\amd64\microsoft.workflowbuildextensions.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\windows\microsoft.net\framework\v4.0.30319\microsoft.workflowbuildextensions.targets
+++Microsoft.TeamTest.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\visualstudio\v17.0\teamtest\microsoft.teamtest.targets
+++NuGet.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\common7\ide\commonextensions\microsoft\nuget\nuget.targets
+++Microsoft.DesktopBridge.ImportAfter.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.desktopbridge.importafter.targets
+++Microsoft.Docker.ImportAfter.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.docker.importafter.targets
+++Microsoft.NET.Build.Extensions.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.build.extensions.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\microsoft.net.build.extensions\microsoft.net.build.extensions.targets
+++Microsoft.Net.CoreRuntime.ImportAfter.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.net.coreruntime.importafter.targets
+++Microsoft.NetNative.ImportAfter.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.netnative.importafter.targets
+++Microsoft.NuGet.ImportAfter.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.nuget.importafter.targets
+++Microsoft.Web.ImportAfter.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\current\microsoft.common.targets\importafter\microsoft.web.importafter.targets
+++Microsoft.DesktopBridge.Common.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\microsoft\desktopbridge\microsoft.desktopbridge.common.targets
+++Microsoft.Docker.targets
+i:{7c8ae7fc-17a0-4283-99f3-34f8b5b960ca}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:c:\program files\microsoft visual studio\2022\community\msbuild\sdks\microsoft.docker.sdk\build\microsoft.docker.targets
+++RepositoryImpl
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\
+++IBlogRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iblogrepository.cs
+++IBrandRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\ibrandrepository.cs
+++ICategoryRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\icategoryrepository.cs
+++ICommentRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\icommentrepository.cs
+++ICompositionRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\icompositionrepository.cs
+++IGeneralRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\igeneralrepository.cs
+++IOrderDetailRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iorderdetailrepository.cs
+++IOrderRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iorderrepository.cs
+++IProductRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iproductrepository.cs
+++IUserRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\iuserrepository.cs
+++Shop.repositories.csproj.nuget.dgspec.json
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.dgspec.json
+++Shop.repositories.csproj.nuget.g.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.props
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.props
+++Shop.repositories.csproj.nuget.g.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.targets
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\shop.repositories.csproj.nuget.g.targets
+++BlogRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\blogrepositoryimpl.cs
+++BrandRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\brandrepository.cs
+++CategoryRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\categoryrepositoryimpl.cs
+++CommentRepository.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\commentrepository.cs
+++CompositionRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\compositionrepositoryimpl.cs
+++GeneralRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\generalrepositoryimpl.cs
+++OrderDetailRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\orderdetailrepositoryimpl.cs
+++OrderRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\orderrepositoryimpl.cs
+++ProductRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\productrepositoryimpl.cs
+++UserRepositoryImpl.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\repositoryimpl\userrepositoryimpl.cs
+++Shop.repositories.deps.json
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net5.0\shop.repositories.deps.json
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\bin\debug\net6.0\shop.repositories.deps.json
+++Shop.repositories.AssemblyInfo.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.assemblyinfo.cs
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.assemblyinfo.cs
+++Shop.repositories.AssemblyInfoInputs.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.assemblyinfoinputs.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.assemblyinfoinputs.cache
+++Shop.repositories.assets.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.assets.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.assets.cache
+++Shop.repositories.csproj.AssemblyReference.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.assemblyreference.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.assemblyreference.cache
+++Shop.repositories.csproj.CopyComplete
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.copycomplete
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.copycomplete
+++Shop.repositories.csproj.CoreCompileInputs.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.corecompileinputs.cache
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.corecompileinputs.cache
+++Shop.repositories.csproj.FileListAbsolute.txt
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.csproj.filelistabsolute.txt
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.csproj.filelistabsolute.txt
+++Shop.repositories.GeneratedMSBuildEditorConfig.editorconfig
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net5.0\shop.repositories.generatedmsbuildeditorconfig.editorconfig
+i:{09aeacfd-896d-441b-95fb-ee847445c80e}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.repositories\obj\debug\net6.0\shop.repositories.generatedmsbuildeditorconfig.editorconfig
+++20220107193502_FirstMigration.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\20220107193502_firstmigration.cs
+++20220107193502_FirstMigration.Designer.cs
+i:{7bd08c49-b207-4af4-9049-c659d15ec7e7}:e:\projects\projecttryhard\onlineshop\cosmeticsshop_be\shop.api\migrations\20220107193502_firstmigration.designer.cs

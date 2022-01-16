@@ -19,10 +19,12 @@ namespace Shop.api.Controllers
         private IUserService _userService;
         private IOrderDetailService _orderDetailService;
         private ICompositionService _compositionService;
+        private ICartService _cartService;
         private Response response;
         public HomeController(ICategoryService categoryService, IOrderService orderService,
             IProductService productService, IBrandService brandService, IBlogService blogService, ICommentService commentService,
-            IUserService userService, IOrderDetailService orderDetailService, ICompositionService compositionService)
+            IUserService userService, IOrderDetailService orderDetailService, ICompositionService compositionService,
+            ICartService cartService)
         {
             _blogService = blogService;
             _categoryService = categoryService;
@@ -33,6 +35,7 @@ namespace Shop.api.Controllers
             _userService = userService;
             _orderDetailService = orderDetailService;
             _compositionService = compositionService;
+            _cartService = cartService;
             response = new Response();
         }
 
@@ -51,7 +54,7 @@ namespace Shop.api.Controllers
         public Response GetProduct(int id)
         {
             Product product = _productService.Get(id);
-            product.Composition = _compositionService.Get(product.CompositionId).Name;
+            product.Composition = _compositionService.Get(product.CompositionId);
             product.BrandName = _brandService.Get(product.BrandId).Name;
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = product;
@@ -89,22 +92,20 @@ namespace Shop.api.Controllers
             return response;
         }
 
-        [HttpPost("get-order-detail")]
-        public Response GetOrderDetail(int? userId, string clientIp)
+        [HttpPost("get-cart")]
+        public Response GetCart(int? userId, string clientIp)
         {
-            var orderDetails = _orderDetailService.GetOrderDetail(userId, clientIp);
+            var carts = _cartService.GetCart(userId, clientIp);
             response.Status = (int)Configs.STATUS_SUCCESS;
-            response.Data = orderDetails;
+            response.Data = carts;
             response.Message = "Success";
             return response;
         }
 
-        [HttpPost("create-order-detail")]
-        public Response CreateOrder(OrderDetail orderDetail)
+        [HttpPost("add-to-cart")]
+        public Response AddToCart(Cart cart)
         {
-            orderDetail.Status = 1;
-            orderDetail.DateTrade = DateTime.Now.ToString();
-            var data = _orderDetailService.CreateOrderDetail(orderDetail);
+            var data = _cartService.Add(cart);
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = data;
             response.Message = "Success";
@@ -186,5 +187,14 @@ namespace Shop.api.Controllers
             return response;
         }
 
+        [HttpGet("search")]
+        public Response Search(string name)
+        {
+            var data = this._compositionService.GetByName(name);
+            response.Status = (int)Configs.STATUS_SUCCESS;
+            response.Data = data;
+            response.Message = "Success";
+            return response;
+        }
     }
 }

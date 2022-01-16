@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Shop.entities
@@ -12,5 +13,6 @@ namespace Shop.entities
         public string Part { get; set; }
         public string Uses { get; set; }
         public string LevelOfIrritation { get; set; }
+        public List<Product> Products { get; set; }
     }
 }

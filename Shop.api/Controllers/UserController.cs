@@ -99,11 +99,11 @@ namespace Shop.api.Controllers
             response.Message = "Success";
             return response;
         }
-         
+
         [HttpPost("caculator-statistical")]
         public Response CaculatorStatistical(string dateFrom, string dateTo)
         {
-             var datas = _userService.CaculatorStatistical(dateFrom, dateTo);
+            var datas = _userService.CaculatorStatistical(dateFrom, dateTo);
             response.Data = datas;
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Message = "Success";

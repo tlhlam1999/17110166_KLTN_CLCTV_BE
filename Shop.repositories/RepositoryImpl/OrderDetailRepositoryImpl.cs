@@ -11,30 +11,33 @@ namespace Shop.repositories.RepositoryImpl
         {
             this._dbContext = context;
         }
-
+        public double? GetPrice(int productId)
+        {
+            var product = _dbContext.Products.Find(productId);
+            return product.Price;
+        }
         public bool CreateOrderDetail(OrderDetail orderDetail)
         {
             bool isAdded = false;
             try
             {
-                var order = _dbContext.OrderDetails.Where(x => x.ProductId == orderDetail.ProductId).FirstOrDefault();
-                if (order != null)
+                var curentOrderDetail = _dbContext.OrderDetails.Find(orderDetail.Id);
+                if (curentOrderDetail != null)
                 {
-                    order.OrderId = orderDetail.OrderId;
-                    order.Status = orderDetail.Status;
-                    order.Quantity = order.Quantity + 1;
-                    _dbContext.OrderDetails.Update(order);
-                    isAdded = true;
+                    curentOrderDetail.Balance = curentOrderDetail.Quantity * (double)GetPrice(curentOrderDetail.ProductId);
+                    curentOrderDetail.Status = 2;
+                    curentOrderDetail.OrderId = orderDetail.OrderId;
+                    _dbContext.OrderDetails.Update(curentOrderDetail);
                 }
                 else
-                { 
+                {
                     _dbContext.OrderDetails.Add(orderDetail);
-
-                    isAdded = true;
                 }
+
+                isAdded = true;
                 _dbContext.SaveChanges();
             }
-            catch (System.Exception)
+            catch (System.Exception ex)
             {
                 isAdded = false;
             }

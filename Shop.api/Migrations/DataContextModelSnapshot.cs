@@ -50,6 +50,8 @@ namespace Shop.api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("UserId");
+
                     b.ToTable("Blogs");
                 });
 
@@ -75,6 +77,34 @@ namespace Shop.api.Migrations
                     b.HasIndex("CategoryId");
 
                     b.ToTable("Brands");
+                });
+
+            modelBuilder.Entity("Shop.entities.Cart", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<double>("Balance")
+                        .HasColumnType("float");
+
+                    b.Property<string>("ClientIp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("ProductId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("Quantity")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Carts");
                 });
 
             modelBuilder.Entity("Shop.entities.Category", b =>
@@ -116,7 +146,7 @@ namespace Shop.api.Migrations
                     b.Property<string>("Image")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("UserId")
+                    b.Property<int>("UserId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -162,9 +192,6 @@ namespace Shop.api.Migrations
                     b.Property<string>("CustomerAddress")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CustomerId")
-                        .HasColumnType("int");
-
                     b.Property<string>("CustomerName")
                         .HasColumnType("nvarchar(max)");
 
@@ -174,13 +201,19 @@ namespace Shop.api.Migrations
                     b.Property<string>("OrderCode")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Status")
-                        .HasColumnType("nvarchar(max)");
+                    b.Property<int>("Status")
+                        .HasColumnType("int");
 
                     b.Property<double>("TotalBalance")
                         .HasColumnType("float");
 
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
 
                     b.ToTable("Orders");
                 });
@@ -202,7 +235,7 @@ namespace Shop.api.Migrations
                     b.Property<string>("DateTrade")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int?>("OrderId")
+                    b.Property<int>("OrderId")
                         .HasColumnType("int");
 
                     b.Property<int>("ProductId")
@@ -218,6 +251,8 @@ namespace Shop.api.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("OrderId");
 
                     b.ToTable("OrderDetails");
                 });
@@ -264,6 +299,10 @@ namespace Shop.api.Migrations
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("BrandId");
+
+                    b.HasIndex("CompositionId");
 
                     b.ToTable("Products");
                 });
@@ -321,6 +360,15 @@ namespace Shop.api.Migrations
                         });
                 });
 
+            modelBuilder.Entity("Shop.entities.Blog", b =>
+                {
+                    b.HasOne("Shop.entities.User", null)
+                        .WithMany("Blogs")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Shop.entities.Brand", b =>
                 {
                     b.HasOne("Shop.entities.Category", null)
@@ -339,14 +387,69 @@ namespace Shop.api.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Shop.entities.Order", b =>
+                {
+                    b.HasOne("Shop.entities.User", null)
+                        .WithOne("Order")
+                        .HasForeignKey("Shop.entities.Order", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Shop.entities.OrderDetail", b =>
+                {
+                    b.HasOne("Shop.entities.Order", null)
+                        .WithMany("OrderDetails")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Shop.entities.Product", b =>
+                {
+                    b.HasOne("Shop.entities.Brand", null)
+                        .WithMany("Products")
+                        .HasForeignKey("BrandId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Shop.entities.Composition", null)
+                        .WithMany("Products")
+                        .HasForeignKey("CompositionId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("Shop.entities.Blog", b =>
                 {
                     b.Navigation("Comments");
                 });
 
+            modelBuilder.Entity("Shop.entities.Brand", b =>
+                {
+                    b.Navigation("Products");
+                });
+
             modelBuilder.Entity("Shop.entities.Category", b =>
                 {
                     b.Navigation("Brands");
+                });
+
+            modelBuilder.Entity("Shop.entities.Composition", b =>
+                {
+                    b.Navigation("Products");
+                });
+
+            modelBuilder.Entity("Shop.entities.Order", b =>
+                {
+                    b.Navigation("OrderDetails");
+                });
+
+            modelBuilder.Entity("Shop.entities.User", b =>
+                {
+                    b.Navigation("Blogs");
+
+                    b.Navigation("Order");
                 });
 #pragma warning restore 612, 618
         }

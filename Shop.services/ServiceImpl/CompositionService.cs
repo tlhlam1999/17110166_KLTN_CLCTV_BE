@@ -12,6 +12,10 @@ namespace Shop.services.ServiceImpl
         {
             _repository = repository;
         }
-     
+
+        public Composition GetByName(string name)
+        {
+            return _repository.GetByName(name);
+        }
     }
 }

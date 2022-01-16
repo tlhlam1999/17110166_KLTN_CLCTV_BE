@@ -7,5 +7,7 @@ namespace Shop.services
     {
         List<Order> SearchOrderByCode(string code);
         Order CreateOrder(Order order);
+        Order CancelOrder(int id);
+        Order UpdateOrder(Order order);
     }
 }

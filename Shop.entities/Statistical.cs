@@ -13,5 +13,6 @@ namespace Shop.entities
         public int SoldQuantity { get; set; }
         public double Revenue { get; set; }
         public double TotalRevenue { get; set; }
+        public int StatusOrder { get; set; }
     }
 }

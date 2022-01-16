@@ -79,6 +79,10 @@ namespace Shop.api
 
             services.AddTransient<IBrandService, BrandService>();
             services.AddTransient<IBrandRepository, BrandRepositoryImpl>();
+
+
+            services.AddTransient<ICartService, CartService>();
+            services.AddTransient<ICartRepository, CartRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

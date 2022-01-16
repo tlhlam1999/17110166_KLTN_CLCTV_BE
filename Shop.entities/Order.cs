@@ -11,13 +11,12 @@ namespace Shop.entities
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
         public string OrderCode { get; set; }
-        public int CustomerId { get; set; }
+        public int UserId { get; set; }
         public string CustomerName { get; set; }
         public string CustomerAddress { get; set; }
         public string CustomerPhoneNumber { get; set; }
-        public string Status { get; set; } 
-        public double TotalBalance { get; set; }
-        [NotMapped]
+        public int Status { get; set; } 
+        public double TotalBalance { get; set; } 
         public List<OrderDetail> OrderDetails { get; set; }
 
     }

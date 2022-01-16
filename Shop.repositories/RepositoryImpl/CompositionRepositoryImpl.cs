@@ -1,4 +1,5 @@
 ﻿using Shop.entities;
+using System.Linq;
 
 namespace Shop.repositories.RepositoryImpl
 {
@@ -9,6 +10,10 @@ namespace Shop.repositories.RepositoryImpl
         {
             this._dbContext = context;
         }
- 
+
+        public Composition GetByName(string name)
+        {
+            return _dbContext.Compositions.Where(x=>x.Name.Equals(name)).FirstOrDefault();
+        }
     }
 }
