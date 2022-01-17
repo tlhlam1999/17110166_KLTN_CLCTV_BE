@@ -18,7 +18,7 @@ namespace Shop.repositories.RepositoryImpl
             {
                 return _dbContext.Brands.ToList();
             }
-            var brands = _dbContext.Brands.Where(x => x.CategoryId == categoryId).ToList();
+            var brands = _dbContext.Brands.Where(x => x.CategoryId == categoryId && !x.IsDisabled).ToList();
             return brands;
         }
     }

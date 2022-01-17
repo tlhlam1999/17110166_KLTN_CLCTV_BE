@@ -24,6 +24,6 @@ namespace Shop.entities
         [NotMapped]
         public string BrandName { get; set; }
         [NotMapped]
-        public Composition Composition { get; set; }
+        public string CompositionName { get; set; }
     }
 }

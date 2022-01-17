@@ -9,41 +9,32 @@ namespace Shop.services.ServiceImpl
     public class OrderService : GeneralServiceImpl<Order, IOrderRepository>, IOrderService
     {
         IOrderRepository _repository;
-        IOrderDetailRepository _detailRepository;
-        IProductRepository _productRepository;
+        IOrderDetailRepository _detailRepository; 
+        ICartRepository _cartRepository;
         public OrderService() { }
-        public OrderService(IOrderRepository repository, IOrderDetailRepository orderDetailRepository, IProductRepository productRepository) : base(repository)
-        {
-            _productRepository = productRepository;
+        public OrderService(IOrderRepository repository, IOrderDetailRepository orderDetailRepository, ICartRepository cartRepository) : base(repository)
+        { 
             _detailRepository = orderDetailRepository;
+            _cartRepository = cartRepository;
             _repository = repository;
         }
 
         public Order CreateOrder(Order order)
-        {
-
-            try
+        { 
+            Order orderAdded = _repository.Add(order);
+            foreach (var item in order.OrderDetails)
             {
-                Order orderAdded = _repository.Add(order);
-                foreach (var item in order.OrderDetails)
-                {
-                    item.DateTrade = DateTime.Now.ToString();
-                    item.OrderId = orderAdded.Id;
-                    _detailRepository.CreateOrderDetail(item);
-                }
-                return orderAdded;
-            }
-            catch (Exception ex)
-            {
-
-                throw;
-            }
-          
+                item.DateTrade = DateTime.Now.ToString();
+                item.OrderId = orderAdded.Id;
+                _detailRepository.CreateOrderDetail(item);
+                _cartRepository.Delete(item.Id);
+            } 
+            return orderAdded; 
         }
 
-        public List<Order> SearchOrderByCode(string code)
+        public List<Order> SearchOrderBySdt(string sdt)
         {
-            return _repository.SearchOrderByCode(code);
+            return _repository.SearchOrderBySdt(sdt);
         }
 
         public Order CancelOrder(int id)
@@ -66,10 +57,10 @@ namespace Shop.services.ServiceImpl
             if (order != null)
             {
                 var orderDetails = _detailRepository.GetByOrderId(order.Id);
-                foreach(var detail in orderDetails)
+                foreach (var detail in orderDetails)
                 {
-                    detail.Status = o.Status; 
-                    _detailRepository.Update(detail); 
+                    detail.Status = o.Status;
+                    _detailRepository.Update(detail);
                 }
             }
             return order;

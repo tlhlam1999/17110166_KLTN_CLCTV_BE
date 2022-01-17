@@ -32,12 +32,18 @@ namespace Shop.repositories.RepositoryImpl
         }
         public List<Product> GetProduct(int brandId, string dataSearch)
         {
+            List<Product> products = new List<Product>();
+            List<Product> productList = new List<Product>();
             if (brandId == 9999)
             {
-                return _dbContext.Products.Where(_x => !_x.IsDisabled).ToList();
+                productList = _dbContext.Products.Where(_x => !_x.IsDisabled).ToList();
+
             }
-            List<Product> products = new List<Product>();
-            List<Product> productList = _dbContext.Products.Where(_x => _x.BrandId == brandId && !_x.IsDisabled).ToList();
+            else
+            {
+                productList = _dbContext.Products.Where(_x => _x.BrandId == brandId && !_x.IsDisabled).ToList();
+            }
+
 
             if (!string.IsNullOrEmpty(dataSearch))
             {
@@ -56,6 +62,12 @@ namespace Shop.repositories.RepositoryImpl
                 return productList;
             }
 
+        }
+
+        public List<Product> GetProductByName(int brandId, string dataSearch)
+        {
+            List<Product> productList = _dbContext.Products.Where(_x => _x.BrandId == brandId && !_x.IsDisabled && _x.NameProduct.Contains(dataSearch)).ToList();
+            return productList;
         }
     }
 }

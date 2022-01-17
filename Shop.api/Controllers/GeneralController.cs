@@ -25,6 +25,7 @@ namespace Shop.api.Controllers
             response.Message = "Success";
             return response;
         }
+         
         [HttpPost("create")]
         public Response Create(TEntity t)
         {
@@ -53,6 +54,7 @@ namespace Shop.api.Controllers
             response.Message = "Success";
             return response;
         }
+
 
     }
 }

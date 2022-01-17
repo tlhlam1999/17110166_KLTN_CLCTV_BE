@@ -7,5 +7,7 @@ namespace Shop.repositories
     {
         public List<Product> GetByBrandId(int brandId);
         public List<Product> GetProduct(int brandId, string dataSearch);
+        public List<Product> GetProductByName(int brandId, string dataSearch);
+        
     }
 }

@@ -8,6 +8,6 @@ namespace Shop.services
         T Add(T entity);
         T Update(T entity);
         T Get(int id);
-        T Delete(int id);
+        T Delete(int id);  
     }
 }

@@ -5,6 +5,6 @@ namespace Shop.repositories
 {
     public interface IOrderRepository : IGeneralRepository<Order>
     {
-        List<Order> SearchOrderByCode(string code); 
+        List<Order> SearchOrderBySdt(string sdt); 
     }
 }

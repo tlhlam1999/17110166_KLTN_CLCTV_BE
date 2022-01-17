@@ -42,7 +42,7 @@ namespace Shop.api.Controllers
 
         [HttpPost("products")]
         public Response GetProduct(int brandId, string? search)
-        { 
+        {
             var data = _productService.GetProduct(brandId, search);
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = data;
@@ -54,7 +54,7 @@ namespace Shop.api.Controllers
         public Response GetProduct(int id)
         {
             Product product = _productService.Get(id);
-            product.Composition = _compositionService.Get(product.CompositionId);
+            product.CompositionName = _compositionService.Get(product.CompositionId).Name;
             product.BrandName = _brandService.Get(product.BrandId).Name;
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = product;
@@ -112,10 +112,10 @@ namespace Shop.api.Controllers
             return response;
         }
 
-        [HttpGet("delete-order-detail")]
-        public Response DeleteOrder(int id)
+        [HttpGet("delete-cart")]
+        public Response DeleteCart(int id)
         {
-            var data = _orderDetailService.Delete(id);
+            var data = _cartService.Delete(id);
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = data;
             response.Message = "Success";
@@ -123,10 +123,18 @@ namespace Shop.api.Controllers
         }
 
 
-        [HttpGet("getBlog")]
-        public Response GetBlog()
+        [HttpGet("get-blog")]
+        public Response GetBlog(string? title)
         {
-            var blogs = this._blogService.GetAll();
+            var blogs = new List<Blog>();
+            if (string.IsNullOrEmpty(title))
+            {
+                blogs = this._blogService.GetAll();
+            }
+            else
+            {
+                blogs = this._blogService.GetAll().Where(x => x.Title.Contains(title)).ToList();
+            }
             foreach (Blog blog in blogs)
             {
                 var user = _userService.Get(blog.UserId);
@@ -196,5 +204,29 @@ namespace Shop.api.Controllers
             response.Message = "Success";
             return response;
         }
+
+        [HttpGet("get-order-by-user")]
+        public Response GetOrderByUser(int userId)
+        {
+            var orders = this._orderService.GetAll().Where(x => x.UserId == userId).ToList();
+            response.Status = (int)Configs.STATUS_SUCCESS;
+            response.Data = orders;
+            response.Message = "Success";
+            return response;
+        }
+        [HttpGet("get-order-detail")]
+        public Response GetOrderDetail(int orderId)
+        {
+            var orders = this._orderDetailService.GetAll().Where(x => x.OrderId == orderId).ToList();
+            foreach (var order in orders)
+            {
+                order.Product = _productService.Get(order.ProductId);
+            }
+            response.Status = (int)Configs.STATUS_SUCCESS;
+            response.Data = orders;
+            response.Message = "Success";
+            return response;
+        }
+
     }
 }

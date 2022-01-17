@@ -29,10 +29,10 @@ namespace Shop.api.Controllers
         }
 
 
-        [HttpGet("searchOrderByCode")]
-        public Response SearchOrderByCode(string? code)
+        [HttpGet("searchOrderBySdt")]
+        public Response SearchOrderBySdt(string? sdt)
         {
-            var orders = this._orderService.SearchOrderByCode(code);
+            var orders = this._orderService.SearchOrderBySdt(sdt);
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = orders;
             response.Message = "Success";

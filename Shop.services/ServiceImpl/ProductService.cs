@@ -34,6 +34,11 @@ namespace Shop.services.ServiceImpl
             }
             return products;
         }
-         
+
+        public List<Product> GetProductByName(int brandId, string name)
+        {
+            var products = _repository.GetProductByName(brandId, name);
+            return products;
+        }
     }
 }

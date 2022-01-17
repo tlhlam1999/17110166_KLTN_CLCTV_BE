@@ -13,13 +13,13 @@ namespace Shop.repositories.RepositoryImpl
         }
          
 
-        public List<Order> SearchOrderByCode(string code)
+        public List<Order> SearchOrderBySdt(string sdt)
         {
-            if (string.IsNullOrEmpty(code))
+            if (string.IsNullOrEmpty(sdt))
             {
                 return _dbContext.Orders.ToList();
             }
-            return _dbContext.Orders.Where(x => x.OrderCode.Equals(code)).ToList();
+            return _dbContext.Orders.Where(x => x.CustomerPhoneNumber.Equals(sdt)).ToList();
         }
     }
 }

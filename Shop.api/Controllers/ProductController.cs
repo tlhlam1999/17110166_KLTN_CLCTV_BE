@@ -38,5 +38,15 @@ namespace Shop.api.Controllers
             response.Message = "Success";
             return response;
         }
+
+        [HttpGet("search-by-name")]
+        public Response SearchByName(int brandId, string name)
+        {
+            var data = _productService.GetProductByName(brandId, name);
+            response.Status = (int)Configs.STATUS_SUCCESS;
+            response.Data = data;
+            response.Message = "Success";
+            return response;
+        }
     }
 }

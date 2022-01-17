@@ -5,7 +5,7 @@ namespace Shop.services
 {
     public interface IOrderService : IGeneralService<Order>
     {
-        List<Order> SearchOrderByCode(string code);
+        List<Order> SearchOrderBySdt(string sdt);
         Order CreateOrder(Order order);
         Order CancelOrder(int id);
         Order UpdateOrder(Order order);
