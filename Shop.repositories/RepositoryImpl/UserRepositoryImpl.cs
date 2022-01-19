@@ -74,7 +74,7 @@ namespace Shop.repositories.RepositoryImpl
             var statisticals = new List<Statistical>();
             foreach (Product product in products)
             {
-                var orderDetails = _dbContext.OrderDetails.Where(x => x.ProductId == product.Id && x.Status == 5).ToList();
+                var orderDetails = _dbContext.OrderDetails.Where(x => x.ProductId == product.Id && x.Status >= 5).ToList();
                 foreach (var orderDetail in orderDetails)
                 {
 

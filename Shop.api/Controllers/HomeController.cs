@@ -206,9 +206,19 @@ namespace Shop.api.Controllers
         }
 
         [HttpGet("get-order-by-user")]
-        public Response GetOrderByUser(int userId)
+        public Response GetOrderByUser(int? userId, string? clientIp)
         {
-            var orders = this._orderService.GetAll().Where(x => x.UserId == userId).ToList();
+            int uId = 0;
+            if (userId == 0)
+            {
+                var users = _userService.GetAll().Where(x=>x.ClientIp != null).ToList();
+                uId = users.Where(x=>x.ClientIp.Equals(clientIp)).LastOrDefault().Id;
+            }
+            else
+            {
+                uId = (int)userId;
+            }
+            var orders = this._orderService.GetAll().Where(x => x.UserId == uId).ToList();
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = orders;
             response.Message = "Success";
@@ -224,6 +234,21 @@ namespace Shop.api.Controllers
             }
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = orders;
+            response.Message = "Success";
+            return response;
+        }
+
+        [HttpPost("update-user")]
+        public Response UpdateUser([FromBody] User user)
+        {
+            var currentUser = this._userService.Get(user.Id);
+            currentUser.Address = user.Address;
+            currentUser.PhoneNumber = user.PhoneNumber;
+            currentUser.UserName = user.UserName;
+            var userUpdated = this._userService.Update(currentUser);
+
+            response.Status = (int)Configs.STATUS_SUCCESS;
+            response.Data = userUpdated;
             response.Message = "Success";
             return response;
         }
