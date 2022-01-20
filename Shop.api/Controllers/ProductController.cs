@@ -40,7 +40,7 @@ namespace Shop.api.Controllers
         }
 
         [HttpGet("search-by-name")]
-        public Response SearchByName(int brandId, string name)
+        public Response SearchByName(int brandId, string? name)
         {
             var data = _productService.GetProductByName(brandId, name);
             response.Status = (int)Configs.STATUS_SUCCESS;

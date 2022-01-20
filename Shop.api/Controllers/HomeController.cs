@@ -139,6 +139,7 @@ namespace Shop.api.Controllers
             {
                 var user = _userService.Get(blog.UserId);
                 blog.Author = user.UserName;
+                blog.Comments = _commentService.GetByBlogId(blog.Id);
             }
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = blogs;
@@ -212,6 +213,13 @@ namespace Shop.api.Controllers
             if (userId == 0)
             {
                 var users = _userService.GetAll().Where(x=>x.ClientIp != null).ToList();
+                if (users.Count == 0)
+                {
+                    response.Status = (int)Configs.STATUS_SUCCESS;
+                    response.Data = null;
+                    response.Message = "User null";
+                    return response;
+                }
                 uId = users.Where(x=>x.ClientIp.Equals(clientIp)).LastOrDefault().Id;
             }
             else

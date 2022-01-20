@@ -22,17 +22,25 @@ namespace Shop.api.Controllers
         [HttpGet("getByCategoryId")]
         public Response GetByCategoryId(int categoryId)
         {
-            var brands = _brandService.GetByCategoryId(categoryId); 
+            var brands = _brandService.GetByCategoryId(categoryId);
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = brands;
             response.Message = "Success";
-            return response; 
+            return response;
         }
 
         [HttpGet("search-by-name")]
-        public Response SearchByName(int categoryId, string name)
+        public Response SearchByName(int categoryId, string? name)
         {
-            var brands = _brandService.GetByCategoryId(categoryId).Where(x=>x.Name.Contains(name)).ToList();
+            var brands = new List<Brand>();
+            if (string.IsNullOrEmpty(name))
+            {
+                brands = _brandService.GetByCategoryId(categoryId).ToList();
+            }
+            else
+            {
+                brands = _brandService.GetByCategoryId(categoryId).Where(x => x.Name.ToUpper().Contains(name.ToUpper())).ToList();
+            }
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = brands;
             response.Message = "Success";

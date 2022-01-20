@@ -30,11 +30,19 @@ namespace Shop.api.Controllers
         }
 
         [HttpGet("search-by-name")]
-        public Response GetByName(string name)
+        public Response GetByName(string? name)
         {
-            var blogDetail = this._categoryService.GetAll().Where(x => x.Name.Contains(name)).ToList();
+            var categories = new List<Category>();
+            if (string.IsNullOrEmpty(name))
+            {
+                categories = this._categoryService.GetAll();
+            }
+            else
+            {
+                categories = this._categoryService.GetAll().Where(x => x.Name.ToUpper().Contains(name.ToUpper())).ToList();
+            } 
             response.Status = (int)Configs.STATUS_SUCCESS;
-            response.Data = blogDetail;
+            response.Data = categories;
             response.Message = "Success";
             return response;
         }

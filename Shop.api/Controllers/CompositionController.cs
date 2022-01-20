@@ -27,7 +27,23 @@ namespace Shop.api.Controllers
             response.Message = "Success";
             return response;
         }
- 
+        [HttpGet("search-by-name")]
+        public Response SearchByName(string? name)
+        {
+            var compositions = new List<Composition>();
+            if (string.IsNullOrEmpty(name))
+            {
+                compositions = _compositionService.GetAll();
+            }else
+            {
+                compositions = _compositionService.GetAll().Where(x => x.Name.ToUpper().Contains(name.ToUpper())).ToList();
+            }
+            
+            response.Status = (int)Configs.STATUS_SUCCESS;
+            response.Data = compositions;
+            response.Message = "Success";
+            return response;
+        }
 
     }
 }

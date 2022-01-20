@@ -27,10 +27,22 @@ namespace Shop.api.Controllers
         public Response GetByOrderId(int orderId)
         {
             var orderDetails = _orderDetailService.GetByOrderId(orderId);
-            foreach (var orderDetail in orderDetails)
+            if (orderDetails.Count > 0)
             {
-                orderDetail.Product = _productService.Get(orderDetail.ProductId);
+                orderDetails = orderDetails.OrderBy(x => x.DateTrade).ToList();
+                foreach (var orderDetail in orderDetails)
+                {
+                    orderDetail.Product = _productService.Get(orderDetail.ProductId);
+                }
             }
+            else
+            {
+                response.Status = (int)Configs.STATUS_SUCCESS;
+                response.Data = new List<OrderDetail>();
+                response.Message = "Success";
+                return response;
+            }
+
             response.Status = (int)Configs.STATUS_SUCCESS;
             response.Data = orderDetails;
             response.Message = "Success";

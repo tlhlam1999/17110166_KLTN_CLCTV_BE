@@ -38,6 +38,10 @@ namespace Shop.services.ServiceImpl
         public List<Product> GetProductByName(int brandId, string name)
         {
             var products = _repository.GetProductByName(brandId, name);
+            foreach (var item in products)
+            {
+                item.BrandName = _brandRepository.Get(item.BrandId).Name;
+            }
             return products;
         }
     }
